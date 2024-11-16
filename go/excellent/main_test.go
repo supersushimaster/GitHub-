@@ -1,6 +1,6 @@
 package main
 
-import testing
+import "testing"
 
 func TestEvenOrOdd(t *testing.T) {
 	result := EvenOrOdd(10)
