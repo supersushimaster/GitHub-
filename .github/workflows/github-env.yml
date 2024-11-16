@@ -1,4 +1,4 @@
-name: GITHUB_ENV
+name: GITHUB ENV
 
 on: push
 
