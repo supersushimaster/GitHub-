@@ -25,7 +25,7 @@ jobs:
       - uses: ./.github/actions/dump/
         id: dump
         with:
-          enable-context: ${ENABLE_CONTEXT}
+          enable-context: ${{ env.ENABLE_CONTEXT }}
       - run: echo "${DATE}"
         env: 
           DATE: ${{ steps.dump.outputs.dumped-date }}
